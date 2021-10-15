@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["ProtocolError",""]],"struct":[["HostInfo","Information about the host environment."],["Protocol","Runtime part of the runtime host protocol."],["ProtocolUntrustedLocalStorage","Untrusted key/value store which stores arbitrary binary key/value pairs on the worker host."]],"type":[["Stream",""]]});

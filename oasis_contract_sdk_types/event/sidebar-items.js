@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Event","An event emitted from the contract."]]});

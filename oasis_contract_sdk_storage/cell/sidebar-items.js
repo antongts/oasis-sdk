@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Cell","A storage cell identifies a storage key of a specific type."]]});

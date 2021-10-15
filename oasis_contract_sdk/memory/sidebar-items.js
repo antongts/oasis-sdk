@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["allocate_host","Allocate memory on host’s behalf."],["deallocate_host","Deallocate memory on host’s behalf."]],"struct":[["HostRegion","A region of memory managed on behalf of the host."],["HostRegionRef","Reference to a host region."]]});

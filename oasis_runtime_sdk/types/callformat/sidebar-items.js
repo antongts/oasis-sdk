@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["CALL_DATA_KEY_PAIR_ID_CONTEXT_BASE","Call data key pair ID domain separation context base."]],"struct":[["CallEnvelopeX25519DeoxysII","A call envelope when using the EncryptedX25519DeoxysII format."],["ResultEnvelopeX25519DeoxysII","A result envelope when using the EncryptedX25519DeoxysII format."]]});

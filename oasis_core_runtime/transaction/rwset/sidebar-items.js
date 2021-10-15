@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CoarsenedKey","A coarsened key prefix that represents any key that starts with this prefix."],["ReadWriteSet","A read/write set."]],"type":[["CoarsenedSet","A set of coarsened keys."]]});

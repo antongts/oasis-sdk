@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["oasis_runtime_sdk"] = [];
+implementors["oasis_runtime_sdk_contracts"] = [{"text":"impl <a class=\"trait\" href=\"oasis_runtime_sdk/error/trait.Error.html\" title=\"trait oasis_runtime_sdk::error::Error\">Error</a> for <a class=\"enum\" href=\"oasis_runtime_sdk_contracts/enum.Error.html\" title=\"enum oasis_runtime_sdk_contracts::Error\">Error</a>","synthetic":false,"types":["oasis_runtime_sdk_contracts::Error"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

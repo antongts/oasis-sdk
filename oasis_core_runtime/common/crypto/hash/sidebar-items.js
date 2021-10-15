@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Hash","A 32-byte SHA-512/256 hash."]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Account","Account metadata."],["AccountBalances","Balances in an account."],["AddressesQuery","Arguments for the Addresses query."],["BalancesQuery","Arguments for the Balances query."],["NonceQuery","Arguments for the Nonce query."],["Transfer","Transfer call."]]});

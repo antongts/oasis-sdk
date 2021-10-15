@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["CallResult","Call result."],["Message","Messages can be emitted by contracts and are processed after the contract execution completes."],["NotifyReply","Specifies when the caller (smart contract) wants to be notified of a reply."],["Reply","Replies to delivered messages."]]});

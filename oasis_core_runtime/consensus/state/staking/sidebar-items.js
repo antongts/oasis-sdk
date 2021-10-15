@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ImmutableState","Consensus staking state wrapper."]]});

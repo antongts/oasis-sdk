@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["seal","Seal a secret to the enclave."],["unseal","Unseal a previously sealed secret to the enclave."]]});

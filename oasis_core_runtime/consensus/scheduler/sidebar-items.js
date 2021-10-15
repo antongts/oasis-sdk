@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["CommitteeKind","The functionality a committee exists to provide."],["Role","The role a given node plays in a committee."]]});

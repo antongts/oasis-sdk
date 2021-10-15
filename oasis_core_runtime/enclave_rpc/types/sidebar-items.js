@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Body",""],["Message","Protocol message."]],"struct":[["Error",""],["Frame","Frame."],["Request",""],["Response",""],["SessionID","Session identifier for multiplexing multiple sessions over the same transport"]]});

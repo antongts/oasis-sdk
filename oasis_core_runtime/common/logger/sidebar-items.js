@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["get_logger","Get the logger."],["init_logger","Initialize the global slog_stdlog adapter to allow logging with the log crate (instead of slog)."]]});

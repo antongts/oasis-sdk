@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["tag_for_event","Generate an Oasis Core tag corresponding to the passed event triple."]],"trait":[["Event","An event emitted by the runtime."]]});

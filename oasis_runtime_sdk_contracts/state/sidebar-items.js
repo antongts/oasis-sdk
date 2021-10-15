@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["CODE","Uploaded code."],["CODE_INFO","Information about uploaded code."],["INSTANCE_INFO","Information about the deployed contract instance."],["INSTANCE_STATE","Per-instance key/value store."],["NEXT_CODE_IDENTIFIER","Next code identifier (u64)."],["NEXT_INSTANCE_IDENTIFIER","Next instance identifier (u64)."]]});

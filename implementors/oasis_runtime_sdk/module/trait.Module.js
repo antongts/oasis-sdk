@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["oasis_runtime_sdk"] = [];
+implementors["oasis_runtime_sdk_contracts"] = [{"text":"impl&lt;Cfg:&nbsp;<a class=\"trait\" href=\"oasis_runtime_sdk_contracts/trait.Config.html\" title=\"trait oasis_runtime_sdk_contracts::Config\">Config</a>&gt; <a class=\"trait\" href=\"oasis_runtime_sdk/module/trait.Module.html\" title=\"trait oasis_runtime_sdk::module::Module\">Module</a> for <a class=\"struct\" href=\"oasis_runtime_sdk_contracts/struct.Module.html\" title=\"struct oasis_runtime_sdk_contracts::Module\">Module</a>&lt;Cfg&gt;","synthetic":false,"types":["oasis_runtime_sdk_contracts::Module"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

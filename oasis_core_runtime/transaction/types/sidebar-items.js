@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["TxnBatch","Batch of transaction inputs/outputs."]]});

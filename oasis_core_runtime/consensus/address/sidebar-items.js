@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Address","A staking account address."],["COMMON_POOL_ADDRESS","Common pool reserved address."],["FEE_ACC_ADDRESS","Per-block fee accumulator reserved address."],["GOVERNANCE_DEPOSITS_ADDRESS","Governance deposits reserved address."]]});

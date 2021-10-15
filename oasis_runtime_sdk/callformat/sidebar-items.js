@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Metadata","Additional metadata required by the result encoding function."]],"fn":[["decode_call","Decode call arguments."],["encode_result","Encode call results."],["get_key_pair_id","Derive the key pair ID for the call data encryption key pair."]]});

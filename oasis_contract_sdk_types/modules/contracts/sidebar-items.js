@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["InstantiateResult","Instantiate call result."]]});

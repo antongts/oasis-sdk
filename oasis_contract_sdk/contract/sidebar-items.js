@@ -1,0 +1,1 @@
+initSidebarItems({"trait":[["Contract","Trait that needs to be implemented by contract implementations."]]});

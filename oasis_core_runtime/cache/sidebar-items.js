@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Cache","Cached storage tree with an associated root."],["CacheSet","A set of storage tree caches, one for each storage operation:"]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["insecure_posix_system_time",""],["insecure_posix_time","Returns the number of seconds since the UNIX epoch.  The time returned is guaranteed to never decrease within each enclave instance (though it may decrease iff the enclave is re-launched)."]]});

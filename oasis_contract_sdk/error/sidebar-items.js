@@ -1,0 +1,1 @@
+initSidebarItems({"trait":[["Error","A contract error that gets propagated to the caller."]]});
