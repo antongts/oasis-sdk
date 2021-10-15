@@ -20,6 +20,7 @@ use crate::{
     },
     testing::{keys, mock},
     types::{
+        message::MessageResult,
         token::{BaseUnits, Denomination},
         transaction,
     },
@@ -59,6 +60,9 @@ fn test_api_deposit_invalid_denomination() {
             format: transaction::CallFormat::Plain,
             method: "consensus.Deposit".to_owned(),
             body: cbor::to_value(Deposit {
+                // It's probably more common to withdraw into your own account, but we're using a
+                // separate `to` account to make sure everything is hooked up to the right places.
+                to: keys::bob::address(),
                 amount: BaseUnits::new(1_000, Denomination::NATIVE),
             }),
         },
@@ -101,6 +105,9 @@ fn test_api_deposit() {
             format: transaction::CallFormat::Plain,
             method: "consensus.Deposit".to_owned(),
             body: cbor::to_value(Deposit {
+                // It's probably more common to deposit into your own account, but we're using a
+                // separate `to` account to make sure everything is hooked up to the right places.
+                to: keys::bob::address(),
                 amount: BaseUnits::new(1_000, Denomination::from_str("TEST").unwrap()),
             }),
         },
@@ -167,6 +174,9 @@ fn test_api_withdraw_invalid_denomination() {
             format: transaction::CallFormat::Plain,
             method: "consensus.Withdraw".to_owned(),
             body: cbor::to_value(Withdraw {
+                // It's probably more common to withdraw into your own account, but we're using a
+                // separate `to` account to make sure everything is hooked up to the right places.
+                to: keys::bob::address(),
                 amount: BaseUnits::new(1_000, Denomination::NATIVE),
             }),
         },
@@ -209,6 +219,9 @@ fn test_api_withdraw_insufficient_balance() {
             format: transaction::CallFormat::Plain,
             method: "consensus.Withdraw".to_owned(),
             body: cbor::to_value(Withdraw {
+                // It's probably more common to withdraw into your own account, but we're using a
+                // separate `to` account to make sure everything is hooked up to the right places.
+                to: keys::bob::address(),
                 amount: BaseUnits::new(1_000, Denomination::from_str("TEST").unwrap()),
             }),
         },
@@ -273,6 +286,9 @@ fn test_api_withdraw() {
             format: transaction::CallFormat::Plain,
             method: "consensus.Withdraw".to_owned(),
             body: cbor::to_value(Withdraw {
+                // It's probably more common to withdraw into your own account, but we're using a
+                // separate `to` account to make sure everything is hooked up to the right places.
+                to: keys::bob::address(),
                 amount: BaseUnits::new(1_000_000, denom.clone()),
             }),
         },
@@ -304,7 +320,7 @@ fn test_api_withdraw() {
             &Message::Staking(Versioned::new(
                 0,
                 StakingMessage::Transfer(staking::Transfer {
-                    to: keys::alice::address().into(),
+                    to: keys::bob::address().into(),
                     amount: 1_000_000u128.into(),
                 })
             )),
@@ -441,6 +457,9 @@ fn test_prefetch() {
             format: transaction::CallFormat::Plain,
             method: "consensus.Withdraw".to_owned(),
             body: cbor::to_value(Withdraw {
+                // It's probably more common to withdraw into your own account, but we're using a
+                // separate `to` account to make sure everything is hooked up to the right places.
+                to: keys::bob::address(),
                 amount: BaseUnits::new(1_000, Denomination::NATIVE),
             }),
         },
@@ -469,6 +488,9 @@ fn test_prefetch() {
             format: transaction::CallFormat::Plain,
             method: "consensus.Deposit".to_owned(),
             body: cbor::to_value(Deposit {
+                // It's probably more common to withdraw into your own account, but we're using a
+                // separate `to` account to make sure everything is hooked up to the right places.
+                to: keys::bob::address(),
                 amount: BaseUnits::new(1_000, Denomination::NATIVE),
             }),
         },
